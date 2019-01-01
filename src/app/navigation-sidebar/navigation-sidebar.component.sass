@@ -1,0 +1,76 @@
+$primary-bgcolor: rgba(0, 0, 0, 0.5)
+$transparent: rgba(255, 255, 255, 0.00)
+$transparent-dark: rgba(255, 255, 255, 0.13)
+    
+#body-row 
+    margin-left: 0
+    margin-right: 0
+    background-color: $primary-bgcolor
+    
+
+#sidebar-container 
+    min-height: 100vh  
+    background-image: linear-gradient(to top right, $transparent-dark, $transparent)
+    padding: 0
+    // border-style: solid
+    // border-color: red
+    width: 210px
+
+
+#list-elements
+    position: absolute
+    // border-style: solid
+    // border-color: green
+    width: 208px
+    bottom: 2px
+    left: 2px
+       
+
+/* Menu item*/
+#sidebar-container .list-group a 
+    height: 50px
+    color: white
+    background-color: $transparent
+
+#sidebar-container .list-group a:hover 
+   color: #8c8c8c
+
+
+/* Submenu item*/
+#sidebar-container .list-group .sidebar-submenu a 
+    height: 45px
+    padding-left: 30px
+
+.sidebar-submenu 
+    font-size: 0.9rem
+
+
+/* Separators */
+.sidebar-separator-title 
+    background-color: $primary-bgcolor
+    height: 35px
+
+.sidebar-separator 
+    background-color: $primary-bgcolor
+    height: 25px
+
+.logo-separator 
+    background-color: $primary-bgcolor    
+    height: 60px
+
+
+/* Closed submenu icon */
+#sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after 
+  content: " \f0d7"
+  font-family: FontAwesome
+  display: inline
+  text-align: right
+  padding-left: 10px
+
+/* Opened submenu icon */
+#sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after 
+  content: " \f0da"
+  font-family: FontAwesome
+  display: inline
+  text-align: right
+  padding-left: 10px

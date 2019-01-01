@@ -1,0 +1,29 @@
+<!-- <div class="container-fluid photos-main">
+  <div class="row">
+      <div *ngFor="let photo of PHOTOS" class="col-lg-4 col-md-6 col-xs-6 thumb">
+          <a href="{{photo.source}}" class="fancybox" rel="ligthbox">
+              <img  src="{{photo.source}}" class="zoom img-fluid "  alt="">
+              
+          </a>
+      </div>  
+  </div>
+</div> --> 
+<div>
+    <div class="black-box">
+        <!-- this is to write over the background but stay behind the mouse animation -->
+    </div>
+    <div class="container-fluid photos-main">
+        <h1>Some of My Clicks</h1>
+        <p class="page-description text-center">All on phone :) </p>
+        <div class="tz-gallery">
+            <div class="row">
+                <div class="col-sm-12 col-md-3" *ngFor="let photo of PHOTOS">
+                    <a class="lightbox" href="{{photo.source}}">
+                        <img src="{{photo.thumbnail}}" alt="Bridge">
+                    </a>
+                </div>  
+            </div>
+        </div>
+    </div>
+</div>
+
