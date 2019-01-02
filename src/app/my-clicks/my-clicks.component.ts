@@ -15,7 +15,7 @@ export class MyClicksComponent implements OnInit {
   PHOTOS: string [];
   constructor (private httpService: HttpClient) { }
   ngOnInit() {
-    this.httpService.get('../../assets/clicks.json').subscribe(
+    this.httpService.get('./assets/clicks.json').subscribe(
       data => {
         this.PHOTOS = data as string [];	 // FILL THE ARRAY WITH DATA.
          console.log(this.PHOTOS[1]);
