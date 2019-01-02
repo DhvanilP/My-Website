@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Photo } from '../Classes/photo';
 import { HttpClient } from '@angular/common/http';
 import { HttpErrorResponse } from '@angular/common/http';
 import * as $ from 'jquery';
@@ -22,11 +21,13 @@ export class MyClicksComponent implements OnInit {
       },
       (err: HttpErrorResponse) => {
         console.log (err.message);
+      },
+      () => {
+        $(document).ready(function() {
+          // alert('The doc is ready;');
+          baguetteBox.run('.tz-gallery');
+        });
       }
     );
-    $(document).ready(function() {
-      // alert('The doc is ready;');
-      baguetteBox.run('.tz-gallery');
-    });
   }
 }
