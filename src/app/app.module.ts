@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MyClicksComponent } from './my-clicks/my-clicks.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     ContactComponent,
     MyClicksComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
