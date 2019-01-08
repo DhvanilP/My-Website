@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { HttpErrorResponse } from '@angular/common/http';
-import * as $ from 'jquery';
+// import * as $ from 'jquery';
 import * as _ from 'showdown';
-declare var popover: any;
+import * as bootstrap from 'bootstrap';
+declare var popover, modal: any;
 
 
 @Component({
@@ -40,7 +41,7 @@ export class ProjectsComponent implements OnInit {
     }).subscribe(
       data => {
         this.Readme = data;
-        console.log(data);
+        // console.log(data);
       },
       (err: HttpErrorResponse) => {
         console.log (err.message);
@@ -50,7 +51,8 @@ export class ProjectsComponent implements OnInit {
         const text = this.Readme;
         this.ReadmeHTML = converter.makeHtml(text);
         console.log('______________________________________');
-        console.log(this.ReadmeHTML);
+        // console.log(this.ReadmeHTML);
+        (<any>$('#myModal')).modal('show');
       }
     );
   }
