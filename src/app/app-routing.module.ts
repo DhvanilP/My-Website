@@ -1,42 +1,52 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
-import { MyClicksComponent } from './my-clicks/my-clicks.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { ResumeComponent } from './resume/resume.component';
 
 const routes: Routes = [
   {
-    path: 'About',
-    component: AboutComponent
+    path: 'about',
+    loadChildren: './about/about.module#AboutModule',
+    data: {
+      state: 'about',
+      title: 'About'
+    }
   },
   {
-    path: 'Projects',
-    component: ProjectsComponent
+    path: 'projects',
+    loadChildren: './projects/projects.module#ProjectsModule',
+    data: {
+      state: 'projects',
+      title: 'Projects'
+    }
   },
   {
-    path: 'MyClicks',
-    component: MyClicksComponent
+    path: 'my-clicks',
+    loadChildren: './my-clicks/my-clicks.module#MyClicksModule',
+    data: {
+      state: 'my-clicks',
+      title: 'MyClicks'
+    }
   },
   {
-    path: 'Resume',
-    component: ResumeComponent
+    path: 'resume',
+    loadChildren: './resume/resume.module#ResumeModule',
+    data: {
+      state: 'resume',
+      title: 'Resume'
+    }
   },
   {
-    path: 'Contact',
-    component: ContactComponent // change this
+    path: 'contact',
+    loadChildren: './contact/contact.module#ContactModule',
+    data: {
+      state: 'contact',
+      title: 'Contact'
+    }
   },
   {
     path: '',
-    redirectTo: '/About',
+    redirectTo: 'about',
     pathMatch: 'full'
   },
-  {
-    path: '**',
-    redirectTo: '/About',
-    pathMatch: 'full'
-  }
 ];
 
 @NgModule({
