@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { HttpClientModule } from '@angular/common/http';
 import { NavigationSidebarComponent } from './navigation-sidebar/navigation-sidebar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,6 +19,7 @@ import { NavigationSidebarComponent } from './navigation-sidebar/navigation-side
     HttpClientModule,
     NgbModule.forRoot(),
     AngularFontAwesomeModule,
+    BrowserAnimationsModule,
     AppRoutingModule
   ],
   providers: [],
