@@ -1,38 +1,38 @@
 <!-- Bootstrap row -->
 <div class="row" id="body-row" > 
     <!-- Sidebar -->
-    <div class="d-none d-md-block" id="sidebar-container"><!-- d-* hiddens the Sidebar in smaller devices. Its itens can be kept on the Navbar 'Menu' -->
+    <div class="sidebar" id="sidebar-container">
         <!-- Bootstrap List Group -->
         <ul class="list-group" id="list-elements" routerLinkActive="addClasstoAttachLater">
             <!-- Menu with submenu -->  
-            <a class="list-group-item link" routerLink="/about">
-                <div class="d-flex w-100 justify-content-start align-items-center">
+            <a class="list-group-item" routerLink="/about">
+                <div class="nDiv d-flex w-100 justify-content-start align-items-center">
                     <span class="fa fa-pied-piper-alt fa-fw mr-3"></span> 
-                    <span class="menu-collapsed">About</span>
+                    <span class="namer">About</span>
                 </div>
             </a>
             <a class="list-group-item" routerLink="/projects">
-                <div class="d-flex w-100 justify-content-start align-items-center">
+                <div class="nDiv d-flex w-100 justify-content-start align-items-center">
                     <span class="fa fa-user fa-fw mr-3"></span>
-                    <span class="menu-collapsed">Projects</span>
+                    <span class="namer">Projects</span>
                 </div>
             </a>     
             <a class="list-group-item" routerLink="/my-clicks">
-                <div class="d-flex w-100 justify-content-start align-items-center">
+                <div class="nDiv d-flex w-100 justify-content-start align-items-center">
                     <span class="fa fa-tasks fa-fw mr-3"></span>
-                    <span class="menu-collapsed">My Clicks</span>    
+                    <span class="namer">My Clicks</span>    
                 </div>
             </a> 
             <a class="list-group-item" routerLink="/resume"> 
-                    <div class="d-flex w-100 justify-content-start align-items-center">
+                    <div class="nDiv d-flex w-100 justify-content-start align-items-center">
                         <span class="fa fa-tasks fa-fw mr-3"></span>
-                        <span class="menu-collapsed">Resume</span>    
+                        <span class="namer">Resume</span>    
                     </div>
             </a> 
             <a class="list-group-item" routerLink="/contact">
-                <div class="d-flex w-100 justify-content-start align-items-center">
+                <div class="nDiv d-flex w-100 justify-content-start align-items-center">
                     <span class="fa fa-dashboard fa-fw mr-3"></span> 
-                    <span class="menu-collapsed">Contact</span>
+                    <span class="namer">Contact</span>
                 </div>
             </a>
         </ul><!-- List Group END-->

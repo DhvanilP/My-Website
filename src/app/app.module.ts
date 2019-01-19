@@ -8,13 +8,11 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { HttpClientModule } from '@angular/common/http';
 import { NavigationSidebarComponent } from './navigation-sidebar/navigation-sidebar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ImageViewerDirective } from './directives/image-viewer.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationSidebarComponent,
-    ImageViewerDirective
+    NavigationSidebarComponent
   ],
   imports: [
     BrowserModule,
