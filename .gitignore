@@ -41,6 +41,8 @@ testem.log
 
 # System Files
 .DS_Store
+
+to_flickr
 Thumbs.db
 
 ./temp
