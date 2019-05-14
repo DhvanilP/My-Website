@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Title }     from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-about',
@@ -7,7 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  public constructor(private titleService: Title ) {
+    this.setTitle('About | DHP')
+   }
+ 
+  public setTitle( newTitle: string) {
+    this.titleService.setTitle( newTitle );
+  }
 
   ngOnInit() {
   }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Title }     from '@angular/platform-browser';
 import { HttpErrorResponse } from '@angular/common/http';
 // import * as $ from 'jquery';
 import * as _ from 'showdown';
@@ -16,7 +17,9 @@ export class ProjectsComponent implements OnInit {
   PROJECTS: string[];
   Readme: String;
   ReadmeHTML: String;
-  constructor(private httpService: HttpClient) { }
+  constructor(private httpService: HttpClient,private titleService: Title) {
+    this.setTitle('Projects | DHP')
+   }
 
   ngOnInit() {
     this.httpService.get('./assets/projects.json').subscribe(
@@ -31,6 +34,9 @@ export class ProjectsComponent implements OnInit {
         console.log('fetched successfully projects');
       }
     );
+  }
+  public setTitle( newTitle: string) {
+    this.titleService.setTitle( newTitle );
   }
 
   public readmeFetch(project) {

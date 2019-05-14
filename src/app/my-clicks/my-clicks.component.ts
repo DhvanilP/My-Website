@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Title }     from '@angular/platform-browser';
 import { HttpErrorResponse } from '@angular/common/http';
 import * as $ from 'jquery';
 declare var baguetteBox, run: any;
@@ -12,7 +13,9 @@ declare var baguetteBox, run: any;
 })
 export class MyClicksComponent implements OnInit {
   PHOTOS: string [];
-  constructor (private httpService: HttpClient) { }
+  constructor (private httpService: HttpClient, private titleService: Title) { 
+    this.setTitle('My-Clicks | DHP')
+  }
   ngOnInit() {
     this.httpService.get('./assets/clicks.json').subscribe(
       data => {
@@ -29,5 +32,9 @@ export class MyClicksComponent implements OnInit {
         });
       }
     );
+  }
+
+  public setTitle( newTitle: string) {
+    this.titleService.setTitle( newTitle );
   }
 }
