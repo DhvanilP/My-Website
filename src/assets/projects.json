@@ -1,83 +1,110 @@
 [
     {
-        "id":"1",
-        "type":"nothing",
-        "name":"OuRCTC",
-        "small_desc":"This gives an implementaion for railway booking system. This makes use of nodejs for server side.",
-        "raw_readme":"https://raw.githubusercontent.com/DhvanilP/OuRCTC/master/README.md",
-        "github_link":"https://github.com/DhvanilP/OuRCTC",
-        "web_link":"https://dhvanilp.github.io/OuRCTC/"
+        "id": "1",
+        "type": "nothing",
+        "name": "OuRCTC",
+        "small_desc": "This gives an implementaion for railway booking system. This makes use of nodejs for server side.",
+        "raw_readme": "https://raw.githubusercontent.com/DhvanilP/OuRCTC/master/README.md",
+        "github_link": "https://github.com/DhvanilP/OuRCTC",
+        "web_link": "https://dhvanilp.github.io/OuRCTC/"
     },
     {
-        "id":"2",
-        "type":"nothing",
-        "name":"Pagerank",
-        "small_desc":"Implementation of PageRank algorithm, using different parallelization approaches. For now there are three of them available: Serial(no parallelization), OpenMP(shared memory), MPI(communication via network). We are going to benchmark them on different datasets.",
-        "raw_readme":"https://raw.githubusercontent.com/DhvanilP/Pagerank/master/README.md",
-        "github_link":"https://github.com/DhvanilP/Pagerank",
-        "web_link":"https://dhvanilp.github.io/Pagerank/"
+        "id": "2",
+        "type": "nothing",
+        "name": "Hybrid-Cryptography",
+        "small_desc": "Implementation of a system capable of encryption and decryption of multimedia data (Text, Images, Videos, Audio etc.) using a hybrid model based on the amalgamation of symmetric encryption techniques such as AES and asymmetric techniques such as ECC.",
+        "raw_readme": "https://raw.githubusercontent.com/DhvanilP/Hybrid-Cryptography/master/README.md",
+        "github_link": "https://github.com/DhvanilP/Hybrid-Cryptography",
+        "web_link": "https://dhvanilp.github.io/Hybrid-Cryptography/"
     },
     {
-        "id":"3",
-        "type":"nothing",
-        "name":"Amazon-Review-Analyser",
-        "small_desc":"Comparative Study of Machine Learning Approaches for Amazon Reviews.",
-        "raw_readme":"https://raw.githubusercontent.com/DhvanilP/Amazon-Review-Analyser/master/README.md",
-        "github_link":"https://github.com/DhvanilP/Amazon-Review-Analyser",
-        "web_link":"https://dhvanilp.github.io/Amazon-Review-Analyser/"
+        "id": "3",
+        "type": "nothing",
+        "name": "Pagerank",
+        "small_desc": "Implementation of PageRank algorithm, using different parallelization approaches. For now there are three of them available: Serial(no parallelization), OpenMP(shared memory), MPI(communication via network). We are going to benchmark them on different datasets.",
+        "raw_readme": "https://raw.githubusercontent.com/DhvanilP/Pagerank/master/README.md",
+        "github_link": "https://github.com/DhvanilP/Pagerank",
+        "web_link": "https://dhvanilp.github.io/Pagerank/"
     },
     {
-        "id":"4",
-        "type":"nothing",
-        "name":"EVOkE",
-        "small_desc":"Image Attendance System is an online attendance system made as a part of CodeFunDo by MicroSoft. This app aims at marking the attendance status of a class by just clicking pictures thus conserving time and solving problems like proxy that are given by students.",
-        "raw_readme":"https://raw.githubusercontent.com/DhvanilP/EVOkE/master/README.md",
-        "github_link":"https://github.com/DhvanilP/EVOkE",
-        "web_link":"https://dhvanilp.github.io/EVOkE/"
+        "id": "4",
+        "type": "nothing",
+        "name": "Amazon-Review-Analyser",
+        "small_desc": "Comparative Study of Machine Learning Approaches for Amazon Reviews.",
+        "raw_readme": "https://raw.githubusercontent.com/DhvanilP/Amazon-Review-Analyser/master/README.md",
+        "github_link": "https://github.com/DhvanilP/Amazon-Review-Analyser",
+        "web_link": "https://dhvanilp.github.io/Amazon-Review-Analyser/"
     },
     {
-        "id":"5",
-        "type":"nothing",
-        "name":"Restaurant-Search",
-        "small_desc":"Restaurant Management system implemented using JAVA at front-end and MYSQL database for the backend.",
-        "raw_readme":"https://raw.githubusercontent.com/DhvanilP/Restaurant-Search/master/README.md",
-        "github_link":"https://github.com/DhvanilP/Restaurant-Search",
-        "web_link":"https://dhvanilp.github.io/Restaurant-Search/"
+        "id": "5",
+        "type": "nothing",
+        "name": "EVOkE",
+        "small_desc": "Image Attendance System is an online attendance system made as a part of CodeFunDo by MicroSoft. This app aims at marking the attendance status of a class by just clicking pictures thus conserving time and solving problems like proxy that are given by students.",
+        "raw_readme": "https://raw.githubusercontent.com/DhvanilP/EVOkE/master/README.md",
+        "github_link": "https://github.com/DhvanilP/EVOkE",
+        "web_link": "https://dhvanilp.github.io/EVOkE/"
     },
     {
-        "id":"6",
-        "type":"nothing",
-        "name":"SockChat",
-        "small_desc":"An android chat app which detects emotions based on text, and suggests songs based on emotions. It is a peer to peer chat application made using Sockets, as a part of course project for Computer Communication and Networks-IT251.",
-        "raw_readme":"https://raw.githubusercontent.com/DhvanilP/SockChat/master/README.md",
-        "github_link":"https://github.com/DhvanilP/SockChat",
-        "web_link":"https://dhvanilp.github.io/SockChat/"
+        "id": "6",
+        "type": "nothing",
+        "name": "Restaurant-Search",
+        "small_desc": "Restaurant Management system implemented using JAVA at front-end and MYSQL database for the backend.",
+        "raw_readme": "https://raw.githubusercontent.com/DhvanilP/Restaurant-Search/master/README.md",
+        "github_link": "https://github.com/DhvanilP/Restaurant-Search",
+        "web_link": "https://dhvanilp.github.io/Restaurant-Search/"
     },
     {
-        "id":"7",
-        "type":"nothing",
-        "name":"Live-video-streaming",
-        "small_desc":"Stream a live-video from camera of an android device to any other device using Wowza Streaming Server.",
-        "raw_readme":"https://raw.githubusercontent.com/DhvanilP/Live-video-streaming/master/README.md",
-        "github_link":"https://github.com/DhvanilP/Live-video-streaming",
-        "web_link":"https://dhvanilp.github.io/Live-video-streaming/"
+        "id": "7",
+        "type": "nothing",
+        "name": "SockChat",
+        "small_desc": "An android chat app which detects emotions based on text, and suggests songs based on emotions. It is a peer to peer chat application made using Sockets, as a part of course project for Computer Communication and Networks-IT251.",
+        "raw_readme": "https://raw.githubusercontent.com/DhvanilP/SockChat/master/README.md",
+        "github_link": "https://github.com/DhvanilP/SockChat",
+        "web_link": "https://dhvanilp.github.io/SockChat/"
     },
     {
-        "id":"8",
-        "type":"nothing",
-        "name":"Web-App-OCR",
-        "small_desc":"This is a Web-App that reads an image and finds the text present in it. It uses Tesseract and Leptonica to process the image. Although the result in not hundred percent accurate improvements can be made by altering the image quality.",
-        "raw_readme":"https://raw.githubusercontent.com/DhvanilP/Web-App-OCR/master/README.md",
-        "github_link":"https://github.com/DhvanilP/Web-App-OCR",
-        "web_link":"https://dhvanilp.github.io/Web-App-OCR/"
+        "id": "8",
+        "type": "nothing",
+        "name": "Live-video-streaming",
+        "small_desc": "Stream a live-video from camera of an android device to any other device using Wowza Streaming Server.",
+        "raw_readme": "https://raw.githubusercontent.com/DhvanilP/Live-video-streaming/master/README.md",
+        "github_link": "https://github.com/DhvanilP/Live-video-streaming",
+        "web_link": "https://dhvanilp.github.io/Live-video-streaming/"
     },
     {
-        "id":"9",
-        "type":"nothing",
-        "name":"Full-Screen-for-Android",
-        "small_desc":"This is a small app made for self-convenience that allows full screen mode on any app, it requires root permissions. There is no activity present in the app. ",
-        "raw_readme":"https://raw.githubusercontent.com/DhvanilP/Full-Screen-for-Android/master/README.md",
-        "github_link":"https://github.com/DhvanilP/Full-Screen-for-Android",
-        "web_link":"https://dhvanilp.github.io/Full-Screen-for-Android/"
+        "id": "9",
+        "type": "nothing",
+        "name": "Web-App-OCR",
+        "small_desc": "This is a Web-App that reads an image and finds the text present in it. It uses Tesseract and Leptonica to process the image. Although the result in not hundred percent accurate improvements can be made by altering the image quality.",
+        "raw_readme": "https://raw.githubusercontent.com/DhvanilP/Web-App-OCR/master/README.md",
+        "github_link": "https://github.com/DhvanilP/Web-App-OCR",
+        "web_link": "https://dhvanilp.github.io/Web-App-OCR/"
+    },
+    {
+        "id": "10",
+        "type": "nothing",
+        "name": "Unix-mini-Project",
+        "small_desc": " The Game of Tiles is a puzzle played on a square, two-dimensional board which can be of dimensions from 3x3 to 9x9 with numbered tiles that slide. The goal of this puzzle is to arrange the board’s tiles from smallest to largest, left to right, top to bottom, with an empty space in board’s bottom-right corner.",
+        "raw_readme": "https://raw.githubusercontent.com/DhvanilP/Unix-mini-Project/master/README.md",
+        "github_link": "https://github.com/DhvanilP/Unix-mini-Project",
+        "web_link": "https://dhvanilp.github.io/Unix-mini-Project/"
+    },
+    {
+        "id": "11",
+        "type": "nothing",
+        "name": "Decision-Support-System",
+        "small_desc": "Predicting the performance of online consumer reviews: A sentiment mining approach to big data analytics.",
+        "raw_readme": "https://raw.githubusercontent.com/dhvanilp/Decision-Support-System/master/README.md",
+        "github_link": "https://github.com/DhvanilP/Decision-Support-System",
+        "web_link": "https://dhvanilp.github.io/Decision-Support-System/"
+    },
+    {
+        "id": "12",
+        "type": "nothing",
+        "name": "Full-Screen-for-Android",
+        "small_desc": "This is a small app made for self-convenience that allows full screen mode on any app, it requires root permissions. There is no activity present in the app. ",
+        "raw_readme": "https://raw.githubusercontent.com/DhvanilP/Full-Screen-for-Android/master/README.md",
+        "github_link": "https://github.com/DhvanilP/Full-Screen-for-Android",
+        "web_link": "https://dhvanilp.github.io/Full-Screen-for-Android/"
     }
 ]
